@@ -27,6 +27,8 @@ public void cliebook(View view){
 /////////////////////////////////////end ebook/////////////////////////////////////////////////////
     ////////////////////////////// link go download book////////////////////////////////////////////
     public void clidownload(View view){
+
+
         Intent downIntent = new Intent(Homemain.this,Downloadbook.class);
         startActivity(downIntent);
     }

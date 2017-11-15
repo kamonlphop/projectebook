@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     tools:context="comsci.kamonlphop.projectebook.Downloadbook">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="dowload"
-        android:textSize="30sp" />
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </android.support.constraint.ConstraintLayout>
